@@ -12,7 +12,7 @@ export default function Introduction({ className  = ''}: Props) {
         <h2 className="mb-6 text-7xl font-bold">
           Meow <br /> Café
         </h2>
-        <p className="max-w-[50%] text-xs">
+        <p className="max-w-1/2 text-xs">
           Um lugar perfeito para pais de pets e amantes de café. Nossa cafeteria tem um espaço confortável para você e
           seu melhor amigo.{' '}
         </p>

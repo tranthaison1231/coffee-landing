@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import MeoEnjoy from "./components/MeoEnjoy";
 
 export default function App() {
+
   return (
     <div className="bg-background font-poppins text-primary">
       <div className="relative mx-auto max-w-6xl sm:py-16">
