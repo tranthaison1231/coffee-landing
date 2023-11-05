@@ -1,10 +1,4 @@
-
-const NAVBAR = [
-  'Inicio',
-  'Produtos',
-  'Sobre',
-  'Blog'
-]
+const NAVBAR = ['Inicio', 'Produtos', 'Sobre', 'Blog']
 
 export default function Navbar() {
   return (

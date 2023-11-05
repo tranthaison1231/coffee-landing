@@ -4,12 +4,14 @@ interface Props {
   className?: string
 }
 
-export default function AboutMe({ className = ''  }: Props) {
+export default function AboutMe({ className = '' }: Props) {
   return (
-    <div className={`flex justify-center relative flex-col items-center px-8 ${className}`}>
-      <img src={bgCoffee} alt="bg-coffee" className="absolute w-full top-0 left-0"/>
-      <h1 className="text-center text-4xl mb-10 border-b-2 mt-40 border-primary w-fit"> Cafés</h1>
-      <p className="text-center mb-10">Conheça nossos cafés exclusivos pensados e preparados por nossos baristas renomados. </p>
+    <div className={`relative flex flex-col items-center justify-center px-8 ${className}`}>
+      <img src={bgCoffee} alt="bg-coffee" className="absolute left-0 top-0 w-full" />
+      <h1 className="mb-10 mt-40 w-fit border-b-2 border-primary text-center text-4xl"> Cafés</h1>
+      <p className="mb-10 text-center">
+        Conheça nossos cafés exclusivos pensados e preparados por nossos baristas renomados.{' '}
+      </p>
       <p className="text-base font-bold">{`Veja Todos >`} </p>
     </div>
   )

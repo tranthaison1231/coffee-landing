@@ -4,7 +4,7 @@ interface Props {
   className?: string
 }
 
-export default function Introduction({ className  = ''}: Props) {
+export default function Introduction({ className = '' }: Props) {
   return (
     <div className={`mt-6 flex pl-7 ${className}`}>
       <div>

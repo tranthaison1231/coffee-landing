@@ -1,15 +1,15 @@
-import { Button } from "./Button";
+import { Button } from './Button'
 import logo from '../assets/images/logo.png'
-import { useState } from "react";
-import Drawer from "./Drawer";
-import Navbar from "./Navbar";
+import { useState } from 'react'
+import Drawer from './Drawer'
+import Navbar from './Navbar'
 
 interface Props {
   className?: string
 }
 
-export default function Header({ className = ''}: Props) {
-  const [open, setOpen] = useState(false);
+export default function Header({ className = '' }: Props) {
+  const [open, setOpen] = useState(false)
 
   const openDrawer = () => {
     setOpen(true)
