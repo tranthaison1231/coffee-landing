@@ -22,7 +22,6 @@ export default function App() {
     }
   }, [isRunning])
 
-
   const count = TIME_OUT - time
   const m = Math.floor((count % 3600) / 60)
   const s = count % 60

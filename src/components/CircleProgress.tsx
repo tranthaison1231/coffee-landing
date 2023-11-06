@@ -1,4 +1,3 @@
-
 interface CircleProgress {
   text: string
   percent: number
